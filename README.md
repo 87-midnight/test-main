@@ -17,5 +17,5 @@ git subtree add --prefix=test-subtree https://github.com/87-midnight/test-subtre
 
 ```
  cd ./test-subtree
-git subtree pull  --prefix=test-subtree https://github.com/87-midnight/test-subtree.git master --squash
+git subtree pull  --prefix=./test-subtree https://github.com/87-midnight/test-subtree.git master --squash
 ```
