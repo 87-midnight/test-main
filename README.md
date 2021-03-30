@@ -16,7 +16,6 @@ git subtree add --prefix=test-subtree https://github.com/87-midnight/test-subtre
 > 在当前父模块下，执行拉取
 
 ```
- cd ./test-subtree
 git subtree pull  --prefix=test-subtree https://github.com/87-midnight/test-subtree.git main --squash
 ```
 
